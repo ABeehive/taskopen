@@ -1,3 +1,11 @@
+# This fork
+This fork has only one use. It adds message links to the links opened by the browser. This is for use on MacOS so that email messages can be linked. It's as simple as adding : |message to the     $BROWSER_REGEX = "www|http";
+
+so it reads :     $BROWSER_REGEX = "www|http|message";
+
+
+
+
 # Dependencies
 
 This perl script is an enhancement to taskwarrior, i.e. it depends on the task binary. See http://www.taskwarrior.org
